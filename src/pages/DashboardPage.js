@@ -20,10 +20,13 @@ class DashboardPage extends React.Component {
               <div className="mr-5">26 New Messages!</div>
             </div>
             <a className="card-footer text-white clearfix small z-1" href="#">
-              <span className="float-left">View Details</span>
+              {/* <span className="float-left">View Details</span> */}
+              <button type="button" class="btn btn-primary">View Details</button>
               <span className="float-right">
                 <i className="fa fa-angle-right"></i>
+              
               </span>
+
             </a>
           </div>
         </div>
@@ -36,7 +39,8 @@ class DashboardPage extends React.Component {
               <div className="mr-5">11 New Tasks!</div>
             </div>
             <a className="card-footer text-white clearfix small z-1" href="#">
-              <span className="float-left">View Details</span>
+              {/* <span className="float-left">View Details</span> */}
+              <button type="button" class="btn btn-warning">View Details</button>
               <span className="float-right">
                 <i className="fa fa-angle-right"></i>
               </span>
@@ -52,7 +56,8 @@ class DashboardPage extends React.Component {
               <div className="mr-5">123 New Orders!</div>
             </div>
             <a className="card-footer text-white clearfix small z-1" href="#">
-              <span className="float-left">View Details</span>
+              {/* <span className="float-left">View Details</span> */}
+              <button type="button" class="btn btn-success">View Details</button>
               <span className="float-right">
                 <i className="fa fa-angle-right"></i>
               </span>
@@ -68,7 +73,8 @@ class DashboardPage extends React.Component {
               <div className="mr-5">13 New Tickets!</div>
             </div>
             <a className="card-footer text-white clearfix small z-1" href="#">
-              <span className="float-left">View Details</span>
+              {/* <span className="float-left">View Details</span> */}
+              <button type="button" class="btn btn-danger">View Details</button>
               <span className="float-right">
                 <i className="fa fa-angle-right"></i>
               </span>

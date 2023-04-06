@@ -192,7 +192,7 @@ class TypographyPage extends React.Component {
                                 <div>
                                     <div className="bd-example">
                                     <div className="btn-group w-100 align-items-center justify-content-between flex-wrap">
-                                    <div className="dropdown">
+                                    <div className="dropdown ">
                                         <button className="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButtonSM" data-bs-toggle="dropdown" aria-expanded="false">
                                         Dropdown button
                                         </button>
@@ -205,7 +205,7 @@ class TypographyPage extends React.Component {
                                         <li><a className="dropdown-item" href="#">Separated link</a></li>
                                         </ul>
                                     </div>
-                                    <div className="dropdown">
+                                    <div className="dropdown my-4">
                                         <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
                                         Dropdown button
                                         </button>
@@ -218,7 +218,7 @@ class TypographyPage extends React.Component {
                                         <li><a className="dropdown-item" href="#">Separated link</a></li>
                                         </ul>
                                     </div>
-                                    <div className="dropdown">
+                                    <div className="dropdown my-4">
                                         <button className="btn btn-secondary btn-lg dropdown-toggle" type="button" id="dropdownMenuButtonLG" data-bs-toggle="dropdown" aria-expanded="false">
                                         Dropdown button
                                         </button>
@@ -501,7 +501,7 @@ class TypographyPage extends React.Component {
                                 </div>
                         </div>
         
-                        <div className="my-3 p-3 bg-body rounded shadow-sm">
+                        {/* <div className="my-3 p-3 bg-body rounded shadow-sm">
                             <h6 className="border-bottom pb-2 mb-0">Recent updates</h6>
                             <div className="d-flex text-muted pt-3">
                             <svg className="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#007bff"></rect><text x="50%" y="50%" fill="#007bff" dy=".3em">32x32</text></svg>
@@ -530,8 +530,8 @@ class TypographyPage extends React.Component {
                             <small className="d-block text-end mt-3">
                             <a href="#">All updates</a>
                             </small>
-                        </div>
-        
+                        </div> */}
+{/*         
                             <div className="my-3 p-3 bg-body rounded shadow-sm">
                                 <h6 className="border-bottom pb-2 mb-0">Suggestions</h6>
                                 <div className="d-flex text-muted pt-3">
@@ -570,9 +570,9 @@ class TypographyPage extends React.Component {
                                 <small className="d-block text-end mt-3">
                                 <a href="#">All suggestions</a>
                                 </small>
-                            </div>
+                            </div> */}
         
-                            <div className="my-3 p-3 bg-body rounded shadow-sm">
+                            {/* <div className="my-3 p-3 bg-body rounded shadow-sm">
                                 <h6 className="border-bottom pb-2 mb-0">Forms</h6>
                                 <section id="forms">
                                     <article className="my-3" id="overview">
@@ -854,12 +854,12 @@ class TypographyPage extends React.Component {
                                     </div>
                                     </article>
                                 </section>
-                            </div>
-        
+                            </div> */}
+{/*         
                             <div className="my-3 p-3 bg-body rounded shadow-sm">
                                 <h6 className="border-bottom pb-2 mb-0">Accordins</h6>
-                                <div className="accordion" id="accordionExample">
-                                    <div className="accordion-item">
+                                <div className="accordion" id="accordionExample"> */}
+                                    {/* <div className="accordion-item">
                                         <h4 className="accordion-header" id="headingOne">
                                         <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                             Accordion Item #1
@@ -870,8 +870,8 @@ class TypographyPage extends React.Component {
                                             <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                                         </div>
                                         </div>
-                                    </div>
-                                    <div className="accordion-item">
+                                    </div> */}
+                                    {/* <div className="accordion-item">
                                         <h4 className="accordion-header" id="headingTwo">
                                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                             Accordion Item #2
@@ -882,8 +882,8 @@ class TypographyPage extends React.Component {
                                             <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                                         </div>
                                         </div>
-                                    </div>
-                                    <div className="accordion-item">
+                                    </div> */}
+                                    {/* <div className="accordion-item">
                                         <h4 className="accordion-header" id="headingThree">
                                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                             Accordion Item #3
@@ -894,9 +894,9 @@ class TypographyPage extends React.Component {
                                             <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                                         </div>
                                         </div>
-                                    </div>
-                                    </div>
-                            </div>
+                                    </div> */}
+                                    {/* </div>
+                            </div> */}
             </>
           );
     }
