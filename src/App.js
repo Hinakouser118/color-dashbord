@@ -9,10 +9,12 @@ import ChangePasswordPage from './pages/profile/ChangePasswordPage';
 import UserPreferencesPage from './pages/profile/UserPreferencesPage'
 import AdminBlankPage from './pages/AdminBlankPage';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import Sidebar from './common/sidebar';
 
 function App() {
   return (
         <Router>
+            <Sidebar/>
             <Routes>
                 <Route exact path='/' element={<DashboardPage/>} />
                 <Route exact path='/login' element={<LoginPage/>} />
